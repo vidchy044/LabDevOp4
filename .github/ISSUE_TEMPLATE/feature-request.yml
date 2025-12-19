@@ -13,7 +13,6 @@ body:
     label: Contact Details
     description: What is your name?
     value: ex. Sertha Taweewattana
-    description: Thanks for taking the time to fill out this bug report!
   validations:
       required: false
 - type: dropdown
