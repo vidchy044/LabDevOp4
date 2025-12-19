@@ -32,10 +32,10 @@ body:
   id: selection
   attributes:
     label: What is the OS which you want to suggest?
+    multiple: true
     options:
       - Window
       - Android
-    placeholder: Selections
   validations:
     required: true
 - type: textarea
