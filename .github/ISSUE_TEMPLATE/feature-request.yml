@@ -12,9 +12,8 @@ body:
   attributes:
     label: Contact Details
     description: What is your name?
-    placeholder: ex. Sertha Taweewattana
-    value: |
-      Thanks for taking the time to fill out this bug report!
+    value: ex. Sertha Taweewattana
+    description: Thanks for taking the time to fill out this bug report!
   validations:
       required: false
 - type: dropdown
