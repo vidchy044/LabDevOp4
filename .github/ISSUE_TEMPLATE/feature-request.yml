@@ -1,0 +1,47 @@
+name: Feature Request
+description: File a feature requst
+title: "Feature: "
+labels: ["feature", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+- octocat
+body:
+
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: What is your name?
+    placeholder: ex. Sertha Taweewattana
+    value: |
+      Thanks for taking the time to fill out this bug report!
+  validations:
+      required: false
+- type: dropdown
+  id: Featureversion
+  attributes:
+    label: Type of request
+    description: Select the type of your request?
+    options:
+      -"New Feature"
+      -"Old Feature"
+    default: 0
+  validations:
+    required: true
+- type: dropdown
+  id: selection
+  attributes:
+    label: What is the OS which you want to suggest?
+    options:
+      - "Window"
+      - "Android"
+    placeholder: Selections
+  validations:
+    required: true
+- type: textarea
+  id: suggestion
+  attributes:
+    label: What are the details of your suggestion?
+    description: Explain what do you want
+    render: shell
+    value: Feature detail
